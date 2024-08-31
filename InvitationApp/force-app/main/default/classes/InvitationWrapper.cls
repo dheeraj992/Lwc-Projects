@@ -1,6 +1,6 @@
 public class InvitationWrapper{
 
-	public Integer Contact_Number;
+	public String Contact_Number;
 	public String Event_Address;
 	public Datetime Event_Date_and_Time;
 	public String Event_Introduction;
