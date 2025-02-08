@@ -1,6 +1,45 @@
 <template>
-    
-    <div class = "banner" style ={bannerStyle}>
-        <h2> Invitation Banner</h2>
+    <div class = "banner" style = {bannerStyle}>
+       <div class = "Section-Container">
+          <section class = "social">
+            <a href = {facebookUrl}> <img src = {instagramImg}></a>
+            <a href = {instagramUrl}> <img src = {facebookImg}> </a>
+          </section>
+          <section class="event-info">
+             <p>{greetingMessage}</p>
+             <h1>{EventIntroduction}
+                <em>{EventParticipants}</em>
+             </h1>
+             <h4>
+               <lightning-formatted-date-time
+                     value={EventDateTime}
+                     year="numeric"
+                     month="long"
+                     day="numeric"
+                     hour="2-digit"
+                     minute="2-digit"
+                  ></lightning-formatted-date-time>
+                  
+            </h4>
+          </section>
+          <section class="countdown">
+             <div class ="counter">
+                <div>{days}</div>
+                days
+             </div>
+             <div class = "counter">
+                <div>{hours}</div>
+                hours
+             </div>
+             <div class = "counter">
+                <div>{minutes}</div>
+                minutes
+             </div>
+             <div class = "counter">
+                <div>{seconds}</div>
+                seconds
+             </div>
+          </section>
+       </div>
     </div>
-</template>
+ </template>

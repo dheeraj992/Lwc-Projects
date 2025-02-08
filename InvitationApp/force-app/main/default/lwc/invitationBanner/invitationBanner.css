@@ -6,3 +6,76 @@
     background-size: cover;
 
 }
+
+.Section-Container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 24px 24px 24px
+}
+
+.social {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.event-info p {
+
+    font-weight: 500;
+    color: #555;
+    font-size: 20px;
+    opacity:0.8;
+    margin-bottom:8px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    
+}
+
+.event-info{
+    text-align: center;
+}
+.event-info h1{
+
+    font-size:24px;
+
+}
+
+.event-info h4{
+
+    font-size:28px;
+}
+
+.event-info h1>em{
+
+    font-size: 56px;
+    font-family: cursive;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.countdown{
+    display:flex;
+   justify-content: space-between;
+   min-width: 320px;
+}
+
+.counter{
+
+    text-align: center;
+}
+.counter div{
+
+    border: 2px solid #ddd;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 56px;
+    border-radius: 5px;
+}
